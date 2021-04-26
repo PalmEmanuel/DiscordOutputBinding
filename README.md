@@ -14,6 +14,8 @@ The binding extension reads the webhook URL from an application setting called D
 
 DiscordFunctionCSharp is an example function on how to implement the custom binding in C# using an assembly reference.
 
+In the current configuration, messages should be provided as a query parameter called `content`.
+
 The binding extension reads the webhook URL from an application setting called DiscordWebhookUrl by default. Specify another application setting in the DiscordWebhookUrl configuration in HttpTriggerDiscord.cs if needed.
 
 ## DiscordFunctionPowerShell
@@ -21,5 +23,7 @@ The binding extension reads the webhook URL from an application setting called D
 DiscordFunctionPowerShell is an example function on how to implement the custom binding in PowerShell using an assembly reference.
 
 Before starting the function, the extension must be installed. The easiest way to do this is using the [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local), see the blog post for more information.
+
+In the current configuration, messages should be provided as a query parameter called `message`.
 
 The binding extension reads the webhook URL from an application setting called DiscordWebhookUrl by default as a connection string. Specify another application setting in the connection property of the function.json file if needed.
