@@ -1,0 +1,25 @@
+{
+  "scriptFile": "HttpTriggerDiscord.ps1",
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "Request",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "Response"
+    },
+    {
+      "type": "Discord",
+      "direction": "out",
+      "name": "Discord"
+    }
+  ]
+}
