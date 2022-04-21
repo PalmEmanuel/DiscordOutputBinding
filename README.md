@@ -14,7 +14,7 @@ The binding extension reads the webhook URL from an application setting called D
 
 DiscordFunctionCSharp is an example function on how to implement the custom binding in C# using an assembly reference.
 
-In the current configuration, messages should be provided as a query parameter called `content`.
+In the current configuration, messages should be provided as a query parameter called `content` to allow conversion to a `DiscordMessage` directly in the trigger.
 
 The binding extension reads the webhook URL from an application setting called DiscordWebhookUrl by default. Specify another application setting in the DiscordWebhookUrl configuration in HttpTriggerDiscord.cs if needed.
 
