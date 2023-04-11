@@ -2,7 +2,7 @@
 
 An Azure Function binding extension that enables your function app to send messages to a Discord channel, using a webhook.
 
-This project is mainly used as an example of how to implement your own custom Azure Functions bindings, and should not be considered optimized code. Associated with this project is a [blog post which can be found here](https://www.pipehow.tech/new-azurefunctioncustombinding/).
+This project is mainly used as an example of how to implement your own custom Azure Functions bindings, and should not be considered optimized code. Associated with this project is a [blog post which can be found here](https://pipe.how/new-azurefunctioncustombinding/).
 
 ## DiscordBinding
 
